@@ -22,5 +22,5 @@ POST Body 데이터를 받아서 Json 데이터로 저장을 하는 서버 샘�
 [issues-shield]: https://img.shields.io/github/issues/dr-coton/JSONStoreSample.svg?style=for-the-badge
 [issues-url]: https://github.com/dr-coton/JSONStoreSample/issues
 [license-shield]: https://img.shields.io/github/license/dr-coton/JSONStoreSample.svg?style=for-the-badge
-[license-url]: https://github.com/dr-coton/JSONStoreSample/blob/main/LICENSE.txt
+[license-url]: https://github.com/dr-coton/JSONStoreSample/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png
