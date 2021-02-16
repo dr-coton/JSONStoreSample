@@ -6,10 +6,35 @@
 
 # JSON-Store-Sample
 
-POST Body 데이터를 받아서 Json 데이터로 저장을 하는 서버 샘플입니다. 
+POST Body 데이터를 받아서 Json 데이터로 저장을 하는 서버 샘플.
 
-## Install 
+## Getting Started
 
+### Prerequisites
+
+* npm 
+```
+npm install npm@latest -g
+```
+
+### Installation 
+1. npm install 
+```
+npm install 
+```
+
+2. run `app.js`
+```
+node app.js 
+```
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+teddy cha - @dr-coton - dr.coton@gmail.com
+
+Project Link: https://github.com/dr-coton/JSONStoreSample
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
