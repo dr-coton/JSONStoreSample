@@ -21,15 +21,30 @@ const saveData = (type, data) => {
 const app = express();
 app.use(bodyParser.json());
 app.post("/cocoa/api/upload", function (req, res) {
-  saveData("mpm", req.body);
+  saveData("ios-mpm", req.body);
   res.send("ok");
 });
 app.post("/cocoa/crash/send", function (req, res) {
-  saveData("crash", req.body);
+  saveData("ios-crash", req.body);
   res.send("ok");
 });
 app.post("/cocoa/session", function (req, res) {
-  saveData("session", req.body);
+  saveData("ios-session", req.body);
+  res.send("ok");
+});
+// '/client/send/exception'
+app.post("/client/send/exception", function (req, res) {
+  saveData("android-exception", req.body);
+  res.send("ok");
+});
+// /client/connect
+app.post("/client/connect", function (req, res) {
+  saveData("android-session", req.body);
+  res.send("ok");
+});
+// /api/upload
+app.post("/api/upload", function (req, res) {
+  saveData("android-mpm", req.body);
   res.send("ok");
 });
 app.listen(3000);
