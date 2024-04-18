@@ -38,7 +38,7 @@ const saveData = (type, data) => {
 
 
 const app = express();
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: 500*1024*1024}));
 app.post("/cocoa/api/upload", function (req, res) {
   saveData("ios-mpm", req.body);
   res.send("ok");
